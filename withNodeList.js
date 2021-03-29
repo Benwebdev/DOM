@@ -19,5 +19,5 @@ export const withNodeList = (content, fn) => {
     if (content instanceof NodeList || Array.isArray(content)) {
         Array.prototype.slice.call(content).forEach(el => fn(el));
     }
-    return content;
+    return this;
 };
