@@ -14,3 +14,6 @@ Insert content, specified by the parameter, to the end of parent element.
 
 ### Prepend
 Prepend content into the parent after the nth child
+
+### Remove
+Remove elements from DOM
