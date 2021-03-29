@@ -1,2 +1,10 @@
 # DOM
-- 
+
+### stringToHtml 
+Converts string to DOM nodes.
+
+### arrayFromNodeList 
+Turns a NodeList into a proper array and returns the array.
+
+### withNodeList 
+Allows a function to be execute over a list of nodes, a node, or a string
