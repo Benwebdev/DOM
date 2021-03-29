@@ -5,7 +5,7 @@ import { withNodeList } from "./withNodeList";
 * @param {HTMLElement} parent - element to add content to
 * @param {String|NodeList|HTMLElement[]} content - content to be added
 * @param {Integer} nth - Position to insert after
-* @returns {Object} - service object
+* @returns {Object} - object
 */
 
 export const prepend = (parent, content, nth = 0) => {
