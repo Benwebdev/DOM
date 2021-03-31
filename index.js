@@ -4,12 +4,15 @@ import { withNodeList } from "./withNodeList";
 import { append } from "./append";
 import { prepend } from "./prepend";
 import { remove } from "./remove";
+import { find } from "./find";
+
 
 export {
-    stringToHTML, 
+    stringToHTML,
     arrayFromNodeList,
-    withNodeList, 
-    append, 
+    withNodeList,
+    append,
     prepend,
-    remove
+    remove,
+    find
 }

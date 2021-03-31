@@ -17,3 +17,7 @@ Prepend content into the parent after the nth child
 
 ### Remove
 Remove elements from DOM
+
+### Find
+Returns child nodes of the element, that match selector.
+
